@@ -5,8 +5,8 @@
   "author": "Bravo68web <hi@b68.dev> (https://github.com/bravo68web/)",
   "homepage": "https://github.com/bravo68web/nodejs-config#readme",
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bravo68web/nodejs-config"
+    "type": "url",
+    "url": "https://github.com/bravo68web/nodejs-config"
   },
   "bugs": {
     "url": "https://github.com/bravo68web/nodejs-config/issues"
