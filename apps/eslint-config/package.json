@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "The official ESLint configuration for bravo68web projects",
   "license": "MIT",
-  "author": "Chan Ka Tsun <me@cktidy.xyz> (https://github.com/bravo68web/)",
+  "author": "Bravo68web <hi@b68.dev> (https://github.com/bravo68web/)",
   "homepage": "https://github.com/bravo68web/nodejs-config#readme",
   "repository": {
     "type": "git",
