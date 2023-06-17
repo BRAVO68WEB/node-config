@@ -1,6 +1,6 @@
 # Node.js Config
 
-[![Linting](https://github.com/bravo68web/nodejs-config/actions/workflows/lint.yml/badge.svg?branch=main)](https://github.com/bravo68web/nodejs-config/actions/workflows/lint.yml)
+[![Linting](https://github.com/BRAVO68WEB/node-config/actions/workflows/lint.yml/badge.svg)](https://github.com/BRAVO68WEB/node-config/actions/workflows/lint.yml)
 
 This is a monorepo to share miscellaneous Node.js config for [bravo68web](https://github.com/bravo68web), monorepo is managed and versioned by [Changeset](https://github.com/changesets/changesets).
 
