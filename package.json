@@ -1,0 +1,38 @@
+{
+  "private": true,
+  "name": "@bravo68web/node-config",
+  "version": "0.0.0",
+  "description": "Sharable Node.js miscellaneous config for bravo68web",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bravo68web/nodejs-config.git"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "turbo build",
+    "ci:publish": "changeset publish",
+    "ci:version": "changeset version",
+    "format": "prettier --write .",
+    "preinstall": "npx only-allow pnpm",
+    "lint": "turbo lint",
+    "prepare": "is-ci || husky install",
+    "sync-renovate-changesets": "node --loader @esbuild-kit/esm-loader scripts/sync-renovate-changesets.ts",
+    "test": "turbo test"
+  },
+  "dependencies": {
+    "@bravo68web/eslint-config": "*",
+    "@bravo68web/prettier-config": "*",
+    "@bravo68web/tsconfig": "*",
+    "@changesets/changelog-github": "0.4.8",
+    "@changesets/cli": "2.26.1",
+    "@esbuild-kit/esm-loader": "2.5.5",
+    "@types/node": "18.16.17",
+    "husky": "8.0.3",
+    "is-ci": "3.0.1",
+    "prettier": "2.8.8",
+    "turbo": "1.10.3"
+  },
+  "packageManager": "pnpm@8.6.2",
+  "prettier": "@bravo68web/prettier-config"
+}

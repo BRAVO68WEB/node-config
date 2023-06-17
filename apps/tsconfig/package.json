@@ -1,0 +1,34 @@
+{
+  "name": "@bravo68web/tsconfig",
+  "version": "1.0.0",
+  "description": "Typescript config for bravo68web, ensure the consistency of code quality.",
+  "license": "MIT",
+  "author": "Chan Ka Tsun <me@cktidy.xyz> (https://github.com/bravo68web/)",
+  "homepage": "https://github.com/bravo68web/nodejs-config#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bravo68web/nodejs-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bravo68web/nodejs-config/issues"
+  },
+  "files": [
+    "base.json",
+    "web.json"
+  ],
+  "peerDependencies": {
+    "typescript": "5.x"
+  },
+  "devDependencies": {
+    "typescript": "5.1.3"
+  },
+  "keywords": [
+    "bravo68web",
+    "tsconfig",
+    "typescript"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  }
+}

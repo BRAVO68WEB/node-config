@@ -1,0 +1,4 @@
+{
+  "extends": ["@bravo68web/eslint-config/code-style"],
+  "ignorePatterns": ["node_modules", "dist"]
+}
