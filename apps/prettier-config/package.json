@@ -6,7 +6,7 @@
   "homepage": "https://github.com/bravo68web/nodejs-config#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bravo68web/nodejs-config.git"
+    "url": "git+https://github.com/bravo68web/nodejs-config"
   },
   "bugs": {
     "url": "https://github.com/bravo68web/nodejs-config/issues"
