@@ -4,10 +4,7 @@
   "version": "0.0.0",
   "description": "Sharable Node.js miscellaneous config for bravo68web",
   "license": "MIT",
-  "repository": {
-    "type": "url",
-    "url": "https://github.com/bravo68web/nodejs-config"
-  },
+  "repository": "git+https://github.com/bravo68web/nodejs-config",
   "type": "module",
   "scripts": {
     "build": "turbo build",
