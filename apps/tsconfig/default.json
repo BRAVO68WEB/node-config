@@ -1,0 +1,25 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "compilerOptions": {
+        "alwaysStrict": false,
+        "declaration": true,
+        "emitDecoratorMetadata": true,
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "lib": ["es2018", "es5", "dom"],
+        "module": "ESNext",
+        "moduleResolution": "node",
+        "noEmit": true,
+        "outDir": "build",
+        "resolveJsonModule": true,
+        "strict": true,
+        "target": "ES2017"
+    },
+    "display": "NoBuild tsconfig.json",
+    "exclude": ["node_modules"],
+    "extends": "./base.json",
+    "files": ["types/index.d.ts"],
+    "ts-node": {
+        "swc": true
+    }
+}

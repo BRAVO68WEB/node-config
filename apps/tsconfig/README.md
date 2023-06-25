@@ -16,19 +16,19 @@ npm install --save-dev @bravo68web/tsconfig
 
 Add the following code to your `tsconfig.json` file:
 
-- Default configuration
+-   Default configuration
 
 ```json
 {
-  "extends": "@bravo68web/tsconfig/base.json"
+    "extends": "@bravo68web/tsconfig/base.json"
 }
 ```
 
-- Web Frontend configuration
+-   Web Frontend configuration
 
 ```json
 {
-  "extends": "@bravo68web/tsconfig/web.json"
+    "extends": "@bravo68web/tsconfig/web.json"
 }
 ```
 
@@ -38,8 +38,8 @@ And that's it! You're now ready to use
 
 This package is compatible with the following TypeScript and Node.js versions:
 
-- TypeScript: 5.0 or later
-- Node.js: Any version that supports the above TypeScript version
+-   TypeScript: 5.0 or later
+-   Node.js: Any version that supports the above TypeScript version
 
 **Updating to the latest version of this package is recommended for the best compatibility.**
 

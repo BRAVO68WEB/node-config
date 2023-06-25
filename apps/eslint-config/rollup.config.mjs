@@ -1,27 +1,27 @@
-import fs from 'node:fs';
-import path from 'node:path';
+import fs from "node:fs";
+import path from "node:path";
 
-import rollupPluginCommonjs from '@rollup/plugin-commonjs';
-import rollupPluginNodeResolve from '@rollup/plugin-node-resolve';
-import rollupPluginTypescript from '@rollup/plugin-typescript';
-import rollupPluginAutoExternal from 'rollup-plugin-auto-external';
+import rollupPluginCommonjs from "@rollup/plugin-commonjs";
+import rollupPluginNodeResolve from "@rollup/plugin-node-resolve";
+import rollupPluginTypescript from "@rollup/plugin-typescript";
+import rollupPluginAutoExternal from "rollup-plugin-auto-external";
 
 // Read the files in the src directory
-const dir = './src/';
+const dir = "./src/";
 // Filter the .ts files
-const files = fs.readdirSync(dir).filter(file => file.endsWith('.ts'));
+const files = fs.readdirSync(dir).filter(file => file.endsWith(".ts"));
 
 const plugins = [
-  // Automatically mark all dependencies as external
-  rollupPluginAutoExternal(),
-  // Resolve node modules
-  rollupPluginNodeResolve(),
-  // Convert CommonJS modules to ES6
-  rollupPluginCommonjs(),
-  // Compile TypeScript files
-  rollupPluginTypescript({
-    tsconfig: 'tsconfig.json',
-  }),
+    // Automatically mark all dependencies as external
+    rollupPluginAutoExternal(),
+    // Resolve node modules
+    rollupPluginNodeResolve(),
+    // Convert CommonJS modules to ES6
+    rollupPluginCommonjs(),
+    // Compile TypeScript files
+    rollupPluginTypescript({
+        tsconfig: "tsconfig.json",
+    }),
 ];
 
 /**
@@ -44,16 +44,16 @@ const plugins = [
  * @returns {ParticularFormatConfig} The Rollup configuration for CJS builds.
  */
 function getCjsConfig(filename) {
-  return {
-    input: `${dir}${filename}`,
-    output: {
-      dir: './dist',
-      exports: 'default',
-      entryFileNames: `${path.basename(filename, '.ts')}.cjs`,
-      format: 'cjs',
-    },
-    plugins,
-  };
+    return {
+        input: `${dir}${filename}`,
+        output: {
+            dir: "./dist",
+            exports: "default",
+            entryFileNames: `${path.basename(filename, ".ts")}.cjs`,
+            format: "cjs",
+        },
+        plugins,
+    };
 }
 
 /**
@@ -63,16 +63,16 @@ function getCjsConfig(filename) {
  * @returns {ParticularFormatConfig} The Rollup configuration for CJS builds.
  */
 function getEsmConfig(filename) {
-  return {
-    input: `${dir}${filename}`,
-    output: {
-      dir: './dist',
-      exports: 'default',
-      entryFileNames: `${path.basename(filename, '.ts')}.mjs`,
-      format: 'esm',
-    },
-    plugins,
-  };
+    return {
+        input: `${dir}${filename}`,
+        output: {
+            dir: "./dist",
+            exports: "default",
+            entryFileNames: `${path.basename(filename, ".ts")}.mjs`,
+            format: "esm",
+        },
+        plugins,
+    };
 }
 
 /**
@@ -81,7 +81,7 @@ function getEsmConfig(filename) {
  * @returns {Array<ParticularFormatConfig>} The Rollup configuration for CJS and ESM builds.
  */
 function getEntryConfigs(filename) {
-  return [getCjsConfig(filename), getEsmConfig(filename)];
+    return [getCjsConfig(filename), getEsmConfig(filename)];
 }
 
 export default files.flatMap(element => getEntryConfigs(element));

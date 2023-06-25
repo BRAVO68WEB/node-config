@@ -1,16 +1,16 @@
 {
-  "$schema": "https://unpkg.com/@changesets/config@2.3.0/schema.json",
-  "access": "public",
-  "baseBranch": "main",
-  "changelog": [
-    "@changesets/changelog-github",
-    {
-      "repo": "bravo68web/nodejs-config"
-    }
-  ],
-  "commit": false,
-  "fixed": [["@bravo68web/eslint-config", "@bravo68web/tsconfig", "@bravo68web/prettier-config"]],
-  "ignore": [],
-  "linked": [],
-  "updateInternalDependencies": "patch"
+    "$schema": "https://unpkg.com/@changesets/config@2.3.0/schema.json",
+    "access": "public",
+    "baseBranch": "main",
+    "changelog": [
+        "@changesets/changelog-github",
+        {
+            "repo": "bravo68web/nodejs-config"
+        }
+    ],
+    "commit": false,
+    "fixed": [["@bravo68web/eslint-config", "@bravo68web/tsconfig", "@bravo68web/prettier-config"]],
+    "ignore": [],
+    "linked": [],
+    "updateInternalDependencies": "patch"
 }

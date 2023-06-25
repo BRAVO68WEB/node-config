@@ -54,46 +54,46 @@ npm install --save-dev @bravo68web/eslint-config
 
 Add the following code to your `.eslintrc.js` or `.eslintrc.json` file:
 
-- Default: (TypeScript is also supported)
+-   Default: (TypeScript is also supported)
 
 ```js
 module.exports = {
-  extends: ['@bravo68web'],
-  // extends: ['@bravo68web/eslint-config/default'], // if you want to use named config
+    extends: ["@bravo68web"],
+    // extends: ['@bravo68web/eslint-config/default'], // if you want to use named config
 };
 ```
 
-- Code Style: (prettier)
+-   Code Style: (prettier)
 
 ```js
 module.exports = {
-  extends: ['@bravo68web/eslint-config/code-style'],
+    extends: ["@bravo68web/eslint-config/code-style"],
 };
 ```
 
-- Typescript Strict:
+-   Typescript Strict:
 
 ```js
 module.exports = {
-  extends: ['@bravo68web/eslint-config/typescript-strict'],
-  parserOptions: {
-    ecmaVersion: 'latest',
-    project: './tsconfig.json',
-    // tsconfigRootDir: __dirname, // if you use tsconfig.json in a different directory
-  },
+    extends: ["@bravo68web/eslint-config/typescript-strict"],
+    parserOptions: {
+        ecmaVersion: "latest",
+        project: "./tsconfig.json",
+        // tsconfigRootDir: __dirname, // if you use tsconfig.json in a different directory
+    },
 };
 ```
 
-- Ultimate: (TypeScript strict + Code Style)
+-   Ultimate: (TypeScript strict + Code Style)
 
 ```js
 module.exports = {
-  extends: ['@bravo68web/eslint-config/ultimate'],
-  parserOptions: {
-    ecmaVersion: 'latest',
-    project: './tsconfig.json',
-    // tsconfigRootDir: __dirname, // if you use tsconfig.json in a different directory
-  },
+    extends: ["@bravo68web/eslint-config/ultimate"],
+    parserOptions: {
+        ecmaVersion: "latest",
+        project: "./tsconfig.json",
+        // tsconfigRootDir: __dirname, // if you use tsconfig.json in a different directory
+    },
 };
 ```
 
@@ -103,9 +103,9 @@ And that's it! You're now ready to use
 
 This package is compatible with the following dependencies and Node.js versions:
 
-- ESLint: 8.x
-- TypeScript: 5.x
-- Node.js: Any version that supports dependencies above
+-   ESLint: 8.x
+-   TypeScript: 5.x
+-   Node.js: Any version that supports dependencies above
 
 **Updating to the latest version of this package is recommended for the best compatibility.**
 

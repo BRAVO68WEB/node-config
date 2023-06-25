@@ -6,9 +6,9 @@ This is a monorepo to share miscellaneous Node.js config for [bravo68web](https:
 
 ## Apps
 
-- [@bravo68web/eslint-config](apps/eslint-config/) - ESLint config
-- [@bravo68web/tsconfig](apps/tsconfig/) - TypeScript config
-- [@bravo68web/prettier-config](apps/prettier-config/) - Prettier config
+-   [@bravo68web/eslint-config](apps/eslint-config/) - ESLint config
+-   [@bravo68web/tsconfig](apps/tsconfig/) - TypeScript config
+-   [@bravo68web/prettier-config](apps/prettier-config/) - Prettier config
 
 ## Strict Configuration
 

@@ -1,9 +1,9 @@
 {
-  "compilerOptions": {
-    "moduleResolution": "node",
-    "noEmit": true
-  },
-  "exclude": ["node_modules", "dist"],
-  "extends": "@bravo68web/tsconfig/base.json",
-  "include": ["src", "rollup.config.mjs", "tests/examples/example-1.ts"]
+    "compilerOptions": {
+        "moduleResolution": "node",
+        "noEmit": true
+    },
+    "exclude": ["node_modules", "dist"],
+    "extends": "@bravo68web/tsconfig/base.json",
+    "include": ["src", "rollup.config.mjs", "tests/examples/example-1.ts"]
 }

@@ -6,19 +6,19 @@ Welcome to the `@bravo68web/prettier-config`! This is the Prettier configuration
 
 ## Specificed Config
 
-- **Single Quotes** - Use single quotes instead of double quotes.
-- **Tab Width** - Use **2** spaces for indentation.
-- **Trailing Comma** - Use trailing commas wherever possible.
-- **Print Width** - Use a print width of **100** characters.
-- **Avoid Parentheses** - Avoid parentheses when possible.
+-   **Single Quotes** - Use single quotes instead of double quotes.
+-   **Tab Width** - Use **2** spaces for indentation.
+-   **Trailing Comma** - Use trailing commas wherever possible.
+-   **Print Width** - Use a print width of **100** characters.
+-   **Avoid Parentheses** - Avoid parentheses when possible.
 
 > `x => x * x` instead of `(x) => x * x`
 
-- **Truey Bracket Spacing** - Add spaces inside of curly braces.
+-   **Truey Bracket Spacing** - Add spaces inside of curly braces.
 
 > `{ foo: bar }` instead of `{foo: bar}`
 
-- **Disabled bracket same line** - Objects and arrays are formatted with each item on a new line.
+-   **Disabled bracket same line** - Objects and arrays are formatted with each item on a new line.
 
 ## Prettier Plugins
 
@@ -60,7 +60,7 @@ Add the following code to your `.prettierrc` or `.prettierrc.json` file:
 
 ```json
 {
-  "prettier": "@bravo68web/prettier-config"
+    "prettier": "@bravo68web/prettier-config"
 }
 ```
 
@@ -70,8 +70,8 @@ And that's it! You're now ready to use
 
 This package is compatible with the following Prettier and Node.js versions:
 
-- Prettier: 2.0 or later (recommended: latest v2, before major version 3)
-- Node.js: Any version that supports Prettier
+-   Prettier: 2.0 or later (recommended: latest v2, before major version 3)
+-   Node.js: Any version that supports Prettier
 
 **Updating to the latest version of this package is recommended for the best compatibility.**
 
