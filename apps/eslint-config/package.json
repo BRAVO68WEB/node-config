@@ -1,6 +1,6 @@
 {
     "name": "@bravo68web/eslint-config",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "description": "The official ESLint configuration for bravo68web projects",
     "license": "MIT",
     "author": "Bravo68web <hi@b68.dev> (https://github.com/bravo68web/)",
@@ -65,10 +65,10 @@
     },
     "exports": {
         ".": {
-            "import": "./dist/default.mjs",
-            "require": "./dist/default.cjs"
+            "import": "./dist/backend.mjs",
+            "require": "./dist/backend.cjs"
         },
-        "./default": {
+        "./muti-base": {
             "import": "./dist/default.mjs",
             "require": "./dist/default.cjs"
         },
@@ -79,6 +79,10 @@
         "./typescript-strict": {
             "import": "./dist/typescript-strict.mjs",
             "require": "./dist/typescript-strict.cjs"
+        },
+        "./backend": {
+            "import": "./dist/backend.mjs",
+            "require": "./dist/backend.cjs"
         }
     }
 }

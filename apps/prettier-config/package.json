@@ -1,6 +1,6 @@
 {
     "name": "@bravo68web/prettier-config",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "description": "The official Prettier configuration for bravo68web projects",
     "author": "Bravo68web <hi@b68.dev> (https://github.com/bravo68web/)",
     "homepage": "https://github.com/bravo68web/nodejs-config#readme",
