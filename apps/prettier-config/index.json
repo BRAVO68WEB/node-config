@@ -7,7 +7,6 @@
     "plugins": [
         "prettier-plugin-prisma",
         "prettier-plugin-sort-json",
-        "prettier-plugin-tailwindcss",
         "prettier-plugin-package-perfection"
     ],
     "printWidth": 100,

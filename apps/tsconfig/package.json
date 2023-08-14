@@ -1,13 +1,16 @@
 {
     "name": "@bravo68web/tsconfig",
-    "version": "1.1.2",
+    "version": "1.1.3",
     "description": "Typescript config for bravo68web, ensure the consistency of code quality.",
     "license": "MIT",
     "author": "Bravo68web <hi@b68.dev> (https://github.com/bravo68web/)",
-    "homepage": "https://github.com/bravo68web/nodejs-config#readme",
-    "repository": "git+https://github.com/bravo68web/nodejs-config",
+    "homepage": "https://github.com/bravo68web/node-config#readme",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/bravo68web/node-config.git"
+    },
     "bugs": {
-        "url": "https://github.com/bravo68web/nodejs-config/issues"
+        "url": "https://github.com/bravo68web/node-config/issues"
     },
     "files": [
         "base.json",
@@ -20,7 +23,7 @@
         "typescript": "5.x"
     },
     "devDependencies": {
-        "typescript": "5.1.3"
+        "typescript": "5.1.6"
     },
     "keywords": [
         "bravo68web",
