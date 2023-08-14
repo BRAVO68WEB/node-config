@@ -23,7 +23,7 @@
         "typescript": "5.x"
     },
     "devDependencies": {
-        "typescript": "5.1.3"
+        "typescript": "5.1.6"
     },
     "keywords": [
         "bravo68web",

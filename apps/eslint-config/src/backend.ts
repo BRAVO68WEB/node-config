@@ -33,7 +33,7 @@ const config: Linter.Config = {
     ],
     rules: {
         quotes: [
-            2,
+            1,
             "double",
             {
                 avoidEscape: true,
