@@ -7,12 +7,11 @@
     "plugins": [
         "prettier-plugin-prisma",
         "prettier-plugin-sort-json",
-        "prettier-plugin-tailwindcss",
         "prettier-plugin-package-perfection"
     ],
     "printWidth": 100,
     "semi": true,
-    "singleQuote": false,
+    "singleQuote": true,
     "tabWidth": 4,
     "trailingComma": "all"
 }
