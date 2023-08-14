@@ -6,7 +6,7 @@
     "homepage": "https://github.com/bravo68web/node-config#readme",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/bravo68web/node-config.git"
+        "url": "https://github.com/bravo68web/node-config"
     },
     "bugs": {
         "url": "https://github.com/bravo68web/node-config/issues"
