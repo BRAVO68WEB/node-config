@@ -31,6 +31,9 @@
     "peerDependencies": {
         "prettier": "2.x || 3.x"
     },
+    "devDependencies": {
+        "eslint-plugin-prettier": "5"
+    },
     "keywords": [
         "bravo68web",
         "prettier",
