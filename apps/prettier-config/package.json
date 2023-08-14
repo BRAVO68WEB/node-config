@@ -4,7 +4,10 @@
     "description": "The official Prettier configuration for bravo68web projects",
     "author": "Bravo68web <hi@b68.dev> (https://github.com/bravo68web/)",
     "homepage": "https://github.com/bravo68web/node-config#readme",
-    "repository": "git+https://github.com/bravo68web/node-config",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/bravo68web/node-config.git"
+    },
     "bugs": {
         "url": "https://github.com/bravo68web/node-config/issues"
     },
