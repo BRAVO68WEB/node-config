@@ -55,9 +55,12 @@ const config: Linter.Config = {
         "react/no-array-index-key": 2,
         // SonarJS
         "sonarjs/no-duplicate-string": 0,
+        "sonarjs/cognitive-complexity": "warn",
         // Unicorn
         "unicorn/no-null": 0,
+        "unicorn/filename-case": "off",
         "unicorn/prefer-module": 0,
+        "unicorn/no-array-reduce": "off",
         "unicorn/no-useless-undefined": 0,
         "unicorn/prevent-abbreviations": 0,
         "unicorn/no-await-expression-member": 0,
