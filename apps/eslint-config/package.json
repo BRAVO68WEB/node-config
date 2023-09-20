@@ -4,13 +4,12 @@
     "description": "The official ESLint configuration for bravo68web projects",
     "license": "MIT",
     "author": "Bravo68web <hi@b68.dev> (https://github.com/bravo68web/)",
-    "homepage": "https://github.com/bravo68web/node-config#readme",
+    "homepage": "https://github.com/BRAVO68WEB/node-config#readme",
     "repository": {
-        "type": "git",
-        "url": "https://github.com/bravo68web/node-config"
+        "url": "https://github.com/BRAVO68WEB/node-config"
     },
     "bugs": {
-        "url": "https://github.com/bravo68web/node-config/issues"
+        "url": "https://github.com/BRAVO68WEB/node-config/issues"
     },
     "files": [
         "dist"
