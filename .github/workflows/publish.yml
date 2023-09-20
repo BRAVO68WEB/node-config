@@ -27,8 +27,8 @@ jobs:
             - name: Setup Environment
               uses: ./.github/actions/setup
 
-            - name: Setup tmate session
-              uses: mxschmitt/action-tmate@v3
+            - name: Setup upterm session
+              uses: lhotari/action-upterm@v1
 
             - name: Create Release Pull Request or Publish to NPM
               id: changesets
