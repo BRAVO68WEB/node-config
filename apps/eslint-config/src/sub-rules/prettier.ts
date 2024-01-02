@@ -6,6 +6,7 @@ const strictCodeStyleConfig: Linter.Config = {
     plugins: ["prettier"], // Add the prettier package to the plugins array.
     rules: {
         "prettier/prettier": 2, // Add a rule to enforce the prettier plugin.
+        "unicorn/filename-case": "off",
     },
 };
 

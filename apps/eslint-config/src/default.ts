@@ -58,12 +58,12 @@ const config: Linter.Config = {
         "sonarjs/cognitive-complexity": "warn",
         // Unicorn
         "unicorn/no-null": 0,
-        "unicorn/filename-case": "off",
         "unicorn/prefer-module": 0,
         "unicorn/no-array-reduce": "off",
         "unicorn/no-useless-undefined": 0,
         "unicorn/prevent-abbreviations": 0,
         "unicorn/no-await-expression-member": 0,
+        "unicorn/filename-case": "off",
         // Typescript
         "@typescript-eslint/no-namespace": 0,
         "@typescript-eslint/no-misused-promises": 0,
@@ -100,6 +100,7 @@ const config: Linter.Config = {
                         ],
                     },
                 ],
+                "unicorn/filename-case": "off",
             },
         },
     ],

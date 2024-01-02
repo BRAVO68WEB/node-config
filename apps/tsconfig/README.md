@@ -24,6 +24,22 @@ Add the following code to your `tsconfig.json` file:
 }
 ```
 
+-   Ready to Use configuration
+
+```json
+{
+    "extends": "@bravo68web/tsconfig/ready.json"
+}
+```
+
+-   Bun configuration
+
+```json
+{
+    "extends": "@bravo68web/tsconfig/bun.json"
+}
+```
+
 -   Web Frontend configuration
 
 ```json
