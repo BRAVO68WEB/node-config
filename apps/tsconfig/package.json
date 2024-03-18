@@ -1,6 +1,6 @@
 {
     "name": "@bravo68web/tsconfig",
-    "version": "1.2.3",
+    "version": "1.2.4",
     "description": "Typescript config for bravo68web, ensure the consistency of code quality.",
     "license": "MIT",
     "author": "Bravo68web <hi@b68.dev> (https://github.com/bravo68web/)",
@@ -17,6 +17,7 @@
         "default.json",
         "nobuild.json",
         "non-strict.json",
+        "ready.json",
         "web.json"
     ],
     "peerDependencies": {
