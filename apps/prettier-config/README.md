@@ -6,7 +6,7 @@ Welcome to the `@bravo68web/prettier-config`! This is the Prettier configuration
 
 ## Specificed Config
 
--   **Single Quotes** - Use single quotes instead of double quotes.
+-   **Double Quotes** - Use double quotes instead of singe quotes.
 -   **Tab Width** - Use **2** spaces for indentation.
 -   **Trailing Comma** - Use trailing commas wherever possible.
 -   **Print Width** - Use a print width of **100** characters.
