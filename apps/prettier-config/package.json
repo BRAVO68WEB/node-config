@@ -1,44 +1,45 @@
 {
-    "name": "@bravo68web/prettier-config",
-    "version": "1.2.6",
-    "description": "The official Prettier configuration for bravo68web projects",
-    "author": "Bravo68web <hi@b68.dev> (https://github.com/bravo68web/)",
-    "homepage": "https://github.com/BRAVO68WEB/node-config#readme",
-    "repository": {
-        "url": "https://github.com/BRAVO68WEB/node-config"
-    },
-    "bugs": {
-        "url": "https://github.com/BRAVO68WEB/node-config/issues"
-    },
-    "main": "index.json",
-    "files": [
-        "index.json",
-        "package.json",
-        "README.md",
-        "LICENSE"
-    ],
-    "scripts": {
-        "test": "vitest run"
-    },
-    "dependencies": {
-        "prettier-plugin-package-perfection": "1.1.0",
-        "prettier-plugin-prisma": "5.0.0",
-        "prettier-plugin-sort-json": "3.1.0",
-        "prettier-plugin-tailwindcss": "0.5.9",
-        "vitest": "1.0.1"
-    },
-    "peerDependencies": {
-        "prettier": "2.x || 3.x"
-    },
-    "devDependencies": {
-        "eslint-plugin-prettier": "5"
-    },
-    "keywords": [
-        "bravo68web",
-        "prettier",
-        "prettier-config"
-    ],
-    "publishConfig": {
-        "access": "public"
-    }
+  "name": "@bravo68web/prettier-config",
+  "version": "1.2.6",
+  "description": "The official Prettier configuration for bravo68web projects",
+  "author": "Bravo68web <hi@b68.dev> (https://github.com/bravo68web/)",
+  "homepage": "https://github.com/BRAVO68WEB/node-config#readme",
+  "repository": {
+    "url": "https://github.com/BRAVO68WEB/node-config"
+  },
+  "bugs": {
+    "url": "https://github.com/BRAVO68WEB/node-config/issues"
+  },
+  "main": "index.json",
+  "files": [
+    "index.json",
+    "package.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "prettier-plugin-package-perfection": "1.1.0",
+    "prettier-plugin-prisma": "5.0.0",
+    "prettier-plugin-sort-json": "3.1.0",
+    "prettier-plugin-tailwindcss": "0.5.9",
+    "vitest": "1.0.1"
+  },
+  "peerDependencies": {
+    "prettier": "2.x || 3.x"
+  },
+  "devDependencies": {
+    "eslint-plugin-prettier": "5"
+  },
+  "keywords": [
+    "bravo68web",
+    "prettier",
+    "prettier-config"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT"
 }
